@@ -4,4 +4,6 @@
 [<EntryPoint>]
 let main argv = 
     printfn "%A" argv
+    printfn "\nPress any key to continue."  
+    System.Console.ReadKey(true) |> ignore  
     0 // return an integer exit code
